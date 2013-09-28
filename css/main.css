@@ -165,6 +165,15 @@ ul.nav li{
     background-color: #e46b6d;
   }
 
+  .home .nav a.home,
+  .cats .nav a.cats,
+  .dogs .nav a.dogs,
+  .safety .nav a.safety,
+  .contact .nav a.contact {
+    background-color: rgba(0,0,0,1);
+  }
+
+
 a.enquiry:link, a.enquiry:visited {
   width: 4.8em;
   height: 4.8em;
@@ -196,7 +205,7 @@ a.enquiry:hover, a.enquiry:focus {
 
 
 .content {
-  padding: 6em 0;
+  padding: 3em 0;
   text-shadow: #eee 0px -1px 1px;
 }
 
