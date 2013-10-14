@@ -171,7 +171,7 @@ ul.nav li{
   .home .nav a.home,
   .cats .nav a.cats,
   .dogs .nav a.dogs,
-  .safety .nav a.safety,
+  .info .nav a.info,
   .contact .nav a.contact {
     background-color: rgba(0,0,0,1);
   }
@@ -242,3 +242,7 @@ a.enquiry:hover, a.enquiry:focus {
     margin: 0;
   }
 
+
+ul li {
+	margin-bottom: 0.4em;
+}
