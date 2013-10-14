@@ -33,8 +33,8 @@ html, body {
 body {
   text-align: center;
   font:17px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #333 url(/img/bg-canvas.jpg) repeat;
-  color:#444;
+  background: #ccc url(/img/bg-canvas.jpg) repeat;
+  color:#333;
   font-weight:300;
 }
 
@@ -55,16 +55,19 @@ a:hover, a:focus {
   color: #85a335;
 }
 
-.leader ul {
+.leader ul,
+.footer ul {
   font-size:1.2em;
   color:#e46b6d;
 }
-  .leader li {
+  .leader li,
+  .footer li {
     display: inline;
     margin-left: 0.4em;
 
   }
-  .leader li a {
+  .leader li a,
+  .footer li a {
     font-size: 0.9em;
     margin-left: 0.2em;
   }
@@ -96,10 +99,13 @@ ul.nav li{
     text-align:right;
   }
 
-.leader a:link, .leader a:visited {
+.leader a:link, .leader a:visited,
+.footer a:link, .footer a:visited {
   color: #fff;
 }
-.leader a:hover, .leader a:focus {
+
+.leader a:hover, .leader a:focus,
+.footer a:hover, .footer a:focus {
   color: #e46b6d;
 }
 
@@ -109,7 +115,6 @@ ul.nav li{
   background: #444 url(/img/little-walt_.jpg) center repeat;
   background-position: middle right;
   background-size: 100%;
-  background-origin: bottom right;
   color: #fff;
   border-bottom: solid 1px #eee;
 
@@ -160,11 +165,9 @@ ul.nav li{
     border-radius: 5px;
     text-shadow: #000 0px -1px 2px;
   }
-
   .nav a:hover {
     background-color: #e46b6d;
   }
-
   .home .nav a.home,
   .cats .nav a.cats,
   .dogs .nav a.dogs,
@@ -214,7 +217,11 @@ a.enquiry:hover, a.enquiry:focus {
   background-color: rgba(0,0,0,0.75);
   color: #fff;
   padding: 3em 0 1em;
+  text-align:center;
 }
+  .footer ul {
+    text-align:center;
+  }
 .base {
   background-color: rgba(0,0,0,0.8);
   color: #fff;
