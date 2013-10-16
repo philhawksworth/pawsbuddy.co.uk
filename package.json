@@ -1,0 +1,19 @@
+{
+  "name": "pawsbuddy.co.uk",
+  "version": "0.0.1",
+  "description": "The pawsbuddy website",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/philhawksworth/pawsbuddy.co.uk.git"
+  },
+  "author": "Phil Hawksworth",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-uglify": "~0.2.2"
+  }
+}
