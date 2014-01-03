@@ -1,3 +1,8 @@
-name: Your New Jekyll Site
+name: PAWS BUDDY
 markdown: redcarpet
-pygments: true
+port: 4000
+
+source: src
+destiation: site
+
+
