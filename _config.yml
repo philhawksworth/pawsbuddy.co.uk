@@ -2,7 +2,6 @@ name: PAWS BUDDY
 markdown: redcarpet
 port: 4000
 
-source: src
 destiation: site
 
 
