@@ -240,6 +240,23 @@ input, textarea {
 }
 
 
+#submit {
+  margin:0 auto 1em;
+  font-size: 1.2em;
+  padding:1em;
+  color: #fff;
+  background-color: #333;
+  border-radius: 5px;
+  border-style:none;
+  width: 50%;
+}
+  #submit:hover,
+  #submit:focus  {
+    color: #fff;
+    background-color: #e46b6d;
+  }
+
+
 /* if the viewport gets bigger than 500px */
 @media all and (min-width: 500px) {
 	.leader li {
