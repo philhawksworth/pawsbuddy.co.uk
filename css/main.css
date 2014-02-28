@@ -238,8 +238,9 @@ input, textarea {
 	font-size: 1.2em;
 	padding:0.2em;
 }
-
-
+textarea {
+  height:80px;
+}
 #submit {
   margin:0 auto 1em;
   font-size: 1.2em;
