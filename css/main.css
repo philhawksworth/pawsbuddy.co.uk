@@ -136,8 +136,8 @@ body.cats .header {
  	background-size: 150%;
 }
 body.contact .header {
- 	background: url(/images/tot_blur_rich_large.jpg) center repeat;
- 	background-size: 100%;
+ 	background: url(/images/tot_blur_rich_large.jpg) no-repeat right center;
+ 	background-size: 180%;
 }
 body.dogs .header {
  	background: url(/images/tot_fetch.jpg) center repeat;
@@ -263,12 +263,13 @@ input, textarea {
 	 	background-position: 0 10%;
 	}
 	body.contact .header {
-	 	background: url(/images/tot_blur_rich_large.jpg) center repeat;
-	 	background-size: 120%;
+    background: url(/images/tot_blur_rich_large.jpg) no-repeat right center;
+    background-size: 140%;
 	}
 	body.info .header {
 	 	background: url(/images/scamp.jpg) center repeat;
 	 	background-size: 120%;
+
 	}
 
 	.header h1 {
@@ -301,7 +302,6 @@ input, textarea {
 		background: url(/images/little-walt_@2x.jpg) center repeat;
 		background-size: 100%;
 		background-position: 0 35%;
-		/*background-origin: */
 	}
 
 	body.dogs .header {
@@ -309,8 +309,8 @@ input, textarea {
 	 	background-size: 120%;
 	}
 	body.contact .header {
-	 	background: url(/images/tot_blur_rich_large.jpg) center repeat;
-	 	background-size: 120%;
+	 	background: url(/images/tot_blur_rich_large.jpg) no-repeat right center;
+	 	background-size: 100%;
 	}
 	body.info .header {
 	 	background: url(/images/scamp.jpg) center repeat;
