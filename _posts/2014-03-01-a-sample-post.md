@@ -4,7 +4,7 @@ pageclass: blog
 
 title: A sample post
 youtubecode: ew5VUSaAMPk
-published: true
+published: false
 ---
 
 Start things off with a little intro. This bit of text before the "more tag" below, will appear as the excerpt on the blog page, and also as the text before the YouTube video, if you inlclude one.
