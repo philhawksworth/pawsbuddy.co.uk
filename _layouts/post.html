@@ -9,10 +9,10 @@
     <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/main.css">
     <meta name="description" value="Professional cat and dog sitting, and other pet services in the St Albans area">
-    <meta name="keywords" value="cat, cats, dog, dogs, walking, walks, walker, home, sitting, services, care, saint, st, albans, pet, pets, hertfordshire, herts, hemel, watford, welwyn">
+    <meta name="keywords" value="cat, cats, dog, dogs, walking, walks, walker, home, sitting, services, care, saint, st, albans, pet, pets">
     <meta name="robots" content="index, follow"/>
   </head>
-  <body class="{{ page.pageclass }}">
+  <body class="blog">
   	 <div class="leader">
       <div class="container">
         <ul class="contacts">
@@ -31,7 +31,25 @@
     </div>
     <div class="content">
     	<div class="container">
-    		{{ content }}
+        <h1>{{ page.title }}</h1>
+
+
+        {% if content contains '<!--more-->' %}
+        {{ content | split:'<!--more-->' | first }}
+        {% else %}
+        {{ content }}
+        {% endif %}
+
+        {% if page.youtubecode %}
+        <div class='embed-container'>
+          <iframe src='http://www.youtube.com/embed/{{ page.youtubecode }}' frameborder='0' allowfullscreen></iframe>
+        </div>
+        {% endif  %}
+    		{% if content contains '<!--more-->' %}
+        {{ content | split:'<!--more-->' | last }}
+        {% else %}
+        {{ content }}
+        {% endif %}
     	</div>
     </div>
     <div class="footer">

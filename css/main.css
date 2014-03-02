@@ -79,8 +79,6 @@ ul {
 	text-decoration: none;
 }
 .header .title a {
-/*	background: #000;
-	background-color: rgba(0,0,0,0.3);*/
   padding: 0.1em 0.2em 0.2em;
   border-radius: 0.2em;
 }
@@ -137,16 +135,17 @@ body.cats .header {
 }
 body.contact .header {
  	background: url(/images/tot_blur_rich_large.jpg) no-repeat right center;
- 	background-size: 180%;
+ 	background-size: 215%;
+   background-position-x: 81%;
 }
 body.dogs .header {
  	background: url(/images/tot_fetch.jpg) center repeat;
- 	background-size: 140%;
+ 	background-size: 150%;
  	background-position: 0 20%;
 }
 body.info .header {
  	background: url(/images/scamp.jpg) center repeat;
- 	background-size: 100%;
+ 	background-size: 120%;
 }
 
 .footer {
@@ -185,12 +184,12 @@ body.info .header {
 	}
 
 .nav {
-	width: 100%;
 	display: block;
 	list-style: none;
 	text-align: center;
-	padding: 0 0 1em;
-	margin:1em 0 0;
+	padding: 0;
+	margin:0;
+  font-size: 0.9em;
 }
 	.nav li {
 		display: inline-block;
@@ -212,15 +211,27 @@ body.info .header {
 .nav a:hover, .nav a:focus {
 	color: #fff;
 	background: #000;
-
 }
 
-body.cats .nav a.cats,
-body.dogs .nav a.dogs,
-body.info .nav a.info,
-body.contact .nav a.contact {
+.nav-major {
+  margin:1em 0 0;
+}
+.nav-minor {
+  padding: 0 0 1em;
+}
+
+body.home li.home a,
+body.cats li.cats a,
+body.dogs li.dogs a,
+body.info li.info a,
+body.blog li.blog a,
+body.contact li.contact a {
 	background: #e46b6d;
 	color: #fff;
+}
+
+body.info li.info {
+  clear: both;
 }
 
 form {
@@ -258,6 +269,17 @@ textarea {
   }
 
 
+
+@media all and (min-width: 420px) {
+
+  body.contact .header {
+    background: url(/images/tot_blur_rich_large.jpg) no-repeat right center;
+    background-size: 150%;
+    background-position-x: inherit;
+  }
+
+}
+
 /* if the viewport gets bigger than 500px */
 @media all and (min-width: 500px) {
 	.leader li {
@@ -282,7 +304,7 @@ textarea {
 	}
 	body.contact .header {
     background: url(/images/tot_blur_rich_large.jpg) no-repeat right center;
-    background-size: 140%;
+    background-size: 150%;
 	}
 	body.info .header {
 	 	background: url(/images/scamp.jpg) center repeat;
@@ -328,7 +350,7 @@ textarea {
 	}
 	body.contact .header {
 	 	background: url(/images/tot_blur_rich_large.jpg) no-repeat right center;
-	 	background-size: 100%;
+	 	background-size: 110%;
 	}
 	body.info .header {
 	 	background: url(/images/scamp.jpg) center repeat;
@@ -342,5 +364,36 @@ textarea {
 		line-height: 1.2em;
 	}
 
+  .nav {
+  display: inline-block;
+  }
+
 
 }
+
+ul.posts {
+  list-style: none;
+  margin: 2em 0 1em ;
+  padding-left:0;
+}
+  ul.posts time {
+    color: #999;
+    margin: 0em;
+    font-size: 0.8em;
+    display: block
+  }
+  ul.posts li {
+    margin-bottom: 2em;
+  }
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5em 0;
+}
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }

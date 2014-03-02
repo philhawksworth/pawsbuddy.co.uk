@@ -1,7 +1,7 @@
 name: PAWS BUDDY
 markdown: redcarpet
 port: 4000
-
 destiation: site
-
-
+exclude: ["CNAME", "README.me"]
+excerpt_separator: <!--more-->
+permalink: /blog/:title
