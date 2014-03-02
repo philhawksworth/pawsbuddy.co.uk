@@ -4,7 +4,7 @@ pageclass: blog
 
 title: Post without video
 youtubecode:
-published: true
+published: false
 ---
 
 Some posts won't have a video embedded. This is what those will look like.
