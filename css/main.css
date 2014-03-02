@@ -147,6 +147,11 @@ body.info .header {
  	background: url(/images/scamp.jpg) center repeat;
  	background-size: 120%;
 }
+body.blog .header {
+   background: url(/images/wally-yawn-low.jpg) no-repeat left top;
+   background-size: 120%;
+}
+
 
 .footer {
 	padding: 1em;
@@ -309,10 +314,14 @@ textarea {
 	body.info .header {
 	 	background: url(/images/scamp.jpg) center repeat;
 	 	background-size: 120%;
-
 	}
+  body.blog .header {
+     background: url(/images/wally-yawn-low.jpg) no-repeat left top;
+     background-size: 100%;
+  }
 
-	.header h1 {
+
+  .header h1 {
 		font-size: 4em;
 	}
 	.header p {
@@ -356,6 +365,11 @@ textarea {
 	 	background: url(/images/scamp.jpg) center repeat;
 	 	background-size: 120%;
 	}
+  body.blog .header {
+     background: url(/images/wally-yawn.jpg) no-repeat left 15%;
+     background-size: 100%;
+  }
+
 	.header h1 {
 		font-size: 5em;
 	}
