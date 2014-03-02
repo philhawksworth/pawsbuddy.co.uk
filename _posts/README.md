@@ -4,7 +4,7 @@ Each new blog post should be created as a new file in the `_posts` directory.
 
 They should start with something called `front-matter` which is just a few variables. That looks like this:
 
-`
+```
 ---
 layout: post
 pageclass: blog
@@ -13,7 +13,7 @@ title: Blogging help
 youtubecode: ew5VUSaAMPk
 published: true
 ---
-`
+```
 
 Everything other than the title, the youtube link and the image link go in the main content section of the post which is this one. Anything that appears before the "more" separator (see it in the code below) will be turned into the excerpt text whcih appears as a little summary of the post on the blog listing page.
 
