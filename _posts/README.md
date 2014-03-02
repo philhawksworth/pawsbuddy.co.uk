@@ -2,7 +2,18 @@
 
 Each new blog post should be created as a new file in the `_posts` directory.
 
-They should start with something called `front-matter` which is just a few variables. That looks like this:
+
+## File name
+
+In order to get published, you'll need to name the new blog post file using the correct nameing convention. That is:
+
+YYYY-MM-DD-the-url-for-this-blog-post-using-dashes-between-words.md
+
+
+## Variables
+
+They should start with something called `front matter` which just sets a few variables. That looks like this:
+
 
 ```
 ---
@@ -48,12 +59,6 @@ Bullet lists are simple to make, just use this syntax:
 
 Make sure to change to set `published: true` in the front matter at the top of the file if you want the post to go live.
 
-
-## File name
-
-In order to get published, you'll need to name the new blog post file using the correct nameing convention. That is:
-
-YYYY-MM-DD-the-url-for-this-blog-post-using-dashes-between-words.md
 
 
 ## YouTube
