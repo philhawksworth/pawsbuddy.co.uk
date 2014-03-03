@@ -38,7 +38,6 @@ body {
  	color:#333;
 }
 
-
 h1, h2, h3 {
 	font-weight: 400;
 	padding:0.4em 0 0.4em;
@@ -52,16 +51,13 @@ h2 {
 h3 {
 	font-size:1em;
 }
-
 p, ul {
 	margin: 0 0 1em;
 	line-height: 140%;
 }
-
 ul {
 	padding: 0 1em;
 }
-
 
 .header h1 {
 	font-size:3em;
@@ -97,7 +93,6 @@ ul {
 	text-align: center;
 }
 
-
 .content a:link,
 .content a:visited {
 	color: #e46b6d;
@@ -110,7 +105,6 @@ ul {
 	color: #6a94ae;
 	border-bottom: solid 1px #baccd8;
 }
-
 
 .container {
 	text-align: left;
@@ -128,10 +122,13 @@ ul {
 	background-color: #598222;
 	padding-top:3em;
 }
-body.home .header,
-body.cats .header {
+body.home .header{
  	background: url(/images/little-walt.jpg) center repeat;
  	background-size: 150%;
+}
+body.cats .header {
+   background: url(/images/polly-wally1.jpg) no-repeat center center;
+   background-size: 180%;
 }
 body.contact .header {
  	background: url(/images/tot_blur_rich_large.jpg) no-repeat right center;
@@ -139,16 +136,16 @@ body.contact .header {
    background-position-x: 81%;
 }
 body.dogs .header {
- 	background: url(/images/tot_fetch.jpg) center repeat;
+ 	background: url(/images/tot_fetch.jpg) no-repeat center;
  	background-size: 150%;
  	background-position: 0 20%;
 }
 body.info .header {
- 	background: url(/images/scamp.jpg) center repeat;
+ 	background: url(/images/scamp.jpg) no-repeat center;
  	background-size: 120%;
 }
 body.blog .header {
-   background: url(/images/wally-yawn-low.jpg) no-repeat left top;
+   background: url(/images/wally-yawn.jpg) no-repeat left top;
    background-size: 120%;
 }
 
@@ -278,7 +275,6 @@ textarea {
 @media all and (min-width: 420px) {
 
   body.contact .header {
-    background: url(/images/tot_blur_rich_large.jpg) no-repeat right center;
     background-size: 150%;
     background-position-x: inherit;
   }
@@ -295,31 +291,27 @@ textarea {
 		margin: 0;
 	}
 
-	body.home .header,
-	body.cats .header {
-		background: url(/images/little-walt_@2x.jpg) center repeat;
+	body.home .header {
 		background-size: 100%;
 		background-position: 0 30%;
-		/*background-origin: */
 	}
+  body.cats .header {
+     background-size: 130%;
+  }
 	body.dogs .header {
-	 	background: url(/images/tot_fetch.jpg) center repeat;
 	 	background-size: 120%;
 	 	background-position: 0 10%;
 	}
 	body.contact .header {
-    background: url(/images/tot_blur_rich_large.jpg) no-repeat right center;
-    background-size: 150%;
+    background-size: 145%;
+    background-position-x: right;
 	}
 	body.info .header {
-	 	background: url(/images/scamp.jpg) center repeat;
 	 	background-size: 120%;
 	}
   body.blog .header {
-     background: url(/images/wally-yawn-low.jpg) no-repeat left top;
      background-size: 100%;
   }
-
 
   .header h1 {
 		font-size: 4em;
@@ -346,23 +338,21 @@ textarea {
 		font-size:2.6em;
 	}
 
-	body.home .header,
-	body.cats .header {
-		background: url(/images/little-walt_@2x.jpg) center repeat;
-		background-size: 100%;
+	body.home .header{
 		background-position: 0 35%;
 	}
-
+  body.cats .header {
+     background-size: 110%;
+  }
 	body.dogs .header {
 	 	background: url(/images/tot_fetch.jpg) center repeat;
 	 	background-size: 120%;
 	}
 	body.contact .header {
-	 	background: url(/images/tot_blur_rich_large.jpg) no-repeat right center;
 	 	background-size: 110%;
 	}
 	body.info .header {
-	 	background: url(/images/scamp.jpg) center repeat;
+	 	background: url(/images/scamp@2x.jpg) no-repeat center;
 	 	background-size: 120%;
 	}
   body.blog .header {
@@ -377,12 +367,9 @@ textarea {
 		font-size: 1.4em;
 		line-height: 1.2em;
 	}
-
   .nav {
-  display: inline-block;
+    display: inline-block;
   }
-
-
 }
 
 ul.posts {
