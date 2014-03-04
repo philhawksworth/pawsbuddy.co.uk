@@ -1,78 +1,25 @@
-# Blogging instructions
-
-Each new blog post should be created as a new file in the `_posts` directory.
-
-
-## File name
-
-In order to get published, you'll need to name the new blog post file using the correct nameing convention. That is:
-
-YYYY-MM-DD-the-url-for-this-blog-post-using-dashes-between-words.md
-
-
-## Variables
-
-They should start with something called `front matter` which just sets a few variables. That looks like this:
-
-
-```
 ---
 layout: post
 pageclass: blog
 
-title: Blogging help
-youtubecode: ew5VUSaAMPk
-published: false
+title: Welcome to Paws Buddy!
+youtubecode: _dm_2G-rIOs
+published: true
 ---
-```
 
-Start things off with a little intro. This bit of text before the "more tag" below, will appear as the excerpt on the blog page, and also as the text before the YouTube video, if you inlclude one.
+We love our pets. But we love holidays too, and often this means leaving our pets behind. Here at Paws Buddy we aim to take away the stress that leaving your pet for long periods of time can bring - both to owners and four-legged friends alike. 
 
 <!--more-->
 
-The rest of the post, goes here. If you included a YouTube link by adding the the youtubecode code in the front matter at the top of this file, this text will appear after it.
+First off, a home pet carer removes the anxiety and medical risks of placing your pet in a kennels or cattery. More and more research suggests that many pets experience anxiety when separated from their humans. Keeping your pet at home while you are away minimises this stress by ensuring that your pet keeps its usual routine in familiar surroundings.
 
-You can create a new paragraph as normal. Carriage returns are all understood.
+As part of our service, Paws Buddy can meet you and your pet before your travels in order to plan the best possible care while you are away. At a practical level, this means feeding, cleaning up, a walk or play. But over and above this, you have the peace of mind that we are able to provide additional care and attention - perhaps for an elderly or ill pet, or a puppy or kitten. Better still, we will send you regular photo updates of your pet while you are away. Because let's face it, often we miss them as much as they miss us!
 
-
-## Headings
-
-You can create a heading but using the `##` syntax above.
+Talking of peace of mind, home pet care visits mean that we can keep your home ticking over while you are away. This might be simply watering plants, putting out your bins or picking up your post, to stocking up your fridge with all the ingredients for a full English ready for your return! 
 
 
-## Links
+So next time you're away for a big holiday, long weekend, business trip or just busy working long hours, let Paws Buddy look after your pet, while you take a pause. 
 
-You can make links to things like this: [Link text goes here](URL-GOES-HERE)
+Just don't let a cat help you with your packing...
 
-
-## Bullet lists
-
-Bullet lists are simple to make, just use this syntax:
-
-* Asterisks
-* make
-* bullet
-* lists
-
-
-## Publishing
-
-Make sure to change to set `published: true` in the front matter at the top of the file if you want the post to go live.
-
-
-
-## YouTube
-
-You can embed a YouTube video into a post by adding a `youtubecode` variable at the top of the file. Like this one:
-
-`youtubecode: ew5VUSaAMPk`
-
-You'll find the Youtube video code in the URL of any YouTube video. It will be in the URL as a variable called `v` like this:
-
-`http://www.youtube.com/watch?v=ew5VUSaAMPk&list=UUH6vXjt-BA7QHl0KnfL-7RQ&feature=c4-overview`
-
-Just copy the value of `v` and include it in the blog post file like this:
-
-`youtubecode: ew5VUSaAMPk`
-
-This will automatically embed the video after any excerpt you right for the post. Adding some introduction to the video will be good for keeping the style consistent and justifying embedding it for sharing.
+: x  PB  x :
