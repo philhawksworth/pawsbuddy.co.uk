@@ -9,8 +9,6 @@ published: true
 
 We love our pets. But we love holidays too, and often this means leaving our pets behind. Here at Paws Buddy we aim to take away the stress that leaving your pet for long periods of time can bring - both to owners and four-legged friends alike. 
 
-youtubecode: 2G-rIOs
-
 First off, a home pet carer removes the anxiety and medical risks of placing your pet in a kennels or cattery. More and more research suggests that many pets experience anxiety when separated from their humans. Keeping your pet at home while you are away minimises this stress by ensuring that your pet keeps its usual routine in familiar surroundings.
 
 As part of our service, Paws Buddy can meet you and your pet before your travels in order to plan the best possible care while you are away. At a practical level, this means feeding, cleaning up, a walk or play. But over and above this, you have the peace of mind that we are able to provide additional care and attention - perhaps for an elderly or ill pet, or a puppy or kitten. Better still, we will send you regular photo updates of your pet while you are away. Because let's face it, often we miss them as much as they miss us!
