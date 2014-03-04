@@ -3,10 +3,10 @@ layout: post
 pageclass: blog
 
 title: Welcome to Paws Buddy!
-youtubecode: _dm_2G-rIOs
+youtubecode: 2G-rIOs
 published: true
 ---
-youtubecode: _dm_2G-rIOs
+youtubecode: 2G-rIOs
 
 We love our pets. But we love holidays too, and often this means leaving our pets behind. Here at Paws Buddy we aim to take away the stress that leaving your pet for long periods of time can bring - both to owners and four-legged friends alike. 
 
