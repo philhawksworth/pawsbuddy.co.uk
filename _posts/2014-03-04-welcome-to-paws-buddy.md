@@ -1,12 +1,15 @@
 
+
+```
 ---
 layout: post
 pageclass: blog
 
 title: Blogging help
-youtubecode: _dm_2G-rIOs
+youtubecode: ew5VUSaAMPk
 published: true
 ---
+```
 
 We love our pets. But we love holidays too, and often this means leaving our pets behind. Here at Paws Buddy we aim to take away the stress that leaving your pet for long periods of time can bring - both to owners and four-legged friends alike.
 
