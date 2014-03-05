@@ -17,6 +17,6 @@ As part of our service, Paws Buddy can meet you and your pet before your travels
 
 Talking of peace of mind, home pet care visits mean that we can keep your home ticking over while you are away. This might be simply your watering plants and picking up your post, or something more specific like stocking up your fridge with all the ingredients for a full English ready for your return! 
 
-So next time you're away for a big holiday, long weekend, business trip or just busy working long hours, let Paws Buddy look after your pet, while you take a pause. (Just don't let a cat help you with your packing...).
+So next time you're away for a big holiday, long weekend, business trip or just busy working long hours, let Paws Buddy look after your pet, while you take a pause. (Just don't let a cat help with your packing...).
 
 : x  PB  x :
