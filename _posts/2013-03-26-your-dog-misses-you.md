@@ -17,6 +17,6 @@ Add to this the strange, new environment of a boarding kennels, surrounded by lo
 
 By offering home visits, tailored specifically to the needs of your pet, Paws Buddy enables you to keep your pet at home while you are away. Remaining in their usual surroundings and familiar routine can minimise the anxiety your dog might experience while you're away for any length of time.
 
-Better still, if that home pet carer is the dog's regular walker, they will already be a familiar friend and a welcome visitor to your home. It's lucky, then that we offer dog walking too (but that's because we love you).
+Better still, if that home pet carer is the dog's regular walker, they will already be a familiar friend and a welcome visitor to your home. It's lucky, then, that we offer dog walking too (but that's because we love you).
 
 : x  PB  x :
