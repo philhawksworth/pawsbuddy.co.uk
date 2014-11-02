@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/licensed/font?kit=AgYOQ731ufUQTvv4tet3mv6L1liJy2FlfhwGgV-nGzY_qLe1oaEDYcVvV0hz1K_eYcWjH8hgIBhLo1F72tOwUm6pof1ayxXsTArZc4TqcdM) format('woff2'), url(http://themes.googleusercontent.com/licensed/font?kit=b7fR6XGf1n7URBWwDk4XXv6L1liJy2FlfhwGgV-nGzY_qLe1oaEDYcVvV0hz1K_eYcWjH8hgIBhLo1F72tOwUm6pof1ayxXsTArZc4TqcdM) format('woff');
+}
 
 @font-face {
   font-family: 'paw-dings';
@@ -117,7 +123,6 @@ ul {
 	border-top: solid 4px #eee;
 }
 
-
 .header {
 	background-color: #598222;
 	padding-top:3em;
@@ -133,7 +138,6 @@ body.cats .header {
 body.contact .header {
  	background: url(/images/tot_blur_rich_large.jpg) no-repeat right center;
  	background-size: 215%;
-   background-position-x: 81%;
 }
 body.dogs .header {
  	background: url(/images/tot_fetch.jpg) no-repeat center;
