@@ -1,5 +1,6 @@
 name: PAWS BUDDY
 markdown: redcarpet
+url: http://pawsbuddy.co.uk
 port: 4000
 destiation: site
 exclude: ["CNAME", "README.me"]
