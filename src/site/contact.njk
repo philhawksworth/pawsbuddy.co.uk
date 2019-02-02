@@ -9,7 +9,14 @@ pageClass: contact
   You can email us on <a href="mailto:info@pawsbuddy.co.uk">info@pawsbuddy.co.uk</a> with any questions, or alternatively, fill out the form below. We will get back to you with details of our availabilty as soon as we can.
 </p>
 
-<form action="http://contact.pawsbuddy.co.uk" action="/thanks" netlify netlify-honeypot="first-name">
+<form action="/thanks" netlify netlify-honeypot="full-name">
+  <p>
+    <label for="full-name">Your full name, no really</label>
+  </p>
+  <p>
+    <input type="text" name="full-name" id="full-name">
+  </p>
+
   <p>
     <label for="email">Your email address (required for us to respond)</label>
   </p>
