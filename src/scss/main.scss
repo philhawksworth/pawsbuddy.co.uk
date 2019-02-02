@@ -257,7 +257,7 @@ input, textarea, select {
 textarea {
   height:80px;
 }
-#submit {
+#submitBtn {
   margin:0 auto 1em;
   font-size: 1.2em;
   padding:1em;
@@ -267,8 +267,8 @@ textarea {
   border-style:none;
   width: 50%;
 }
-  #submit:hover,
-  #submit:focus  {
+  #submitBtn:hover,
+  #submitBtn:focus  {
     color: #fff;
     background-color: #e46b6d;
   }

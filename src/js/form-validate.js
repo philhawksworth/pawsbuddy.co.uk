@@ -34,7 +34,7 @@ function flagIfEmpty(input){
       // abort if there are flagged fields (other than the honeypot)
       // otherwise we can submit.
       flags = form.querySelectorAll('.needs-content');
-      if(flags.length > 1) {
+      if(flags.length > 0) {
         return false;
       } else {
         form.submit();
