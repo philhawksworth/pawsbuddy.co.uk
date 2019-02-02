@@ -1,7 +1,0 @@
-name: PAWS BUDDY
-url: http://pawsbuddy.co.uk
-port: 4000
-destiation: site
-exclude: ["CNAME", "README.me"]
-excerpt_separator: <!--more-->
-permalink: /blog/:title

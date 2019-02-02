@@ -1,0 +1,21 @@
+{
+  "name": "pawsbuddy.co.uk",
+  "version": "1.0.0",
+  "repository": "git@github.com:philhawksworth/pawsbuddy.co.uk.git",
+  "author": "Phil Hawksworth <phil@netlify.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp dev & ELEVENTY_ENV=dev eleventy --serve",
+    "build": "gulp build ELEVENTY_ENV=dev & eleventy",
+    "seed": "gulp build ELEVENTY_ENV=seed & eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.7.1",
+    "dotenv": "^6.2.0",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "html-minifier": "^3.5.21"
+  }
+}
