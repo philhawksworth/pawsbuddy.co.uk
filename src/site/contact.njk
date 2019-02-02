@@ -1,0 +1,63 @@
+---
+layout: default
+title: Contact
+pageClass: contact
+---
+
+<h1>Contact us</h1>
+<p>
+  You can email us on <a href="mailto:info@pawsbuddy.co.uk">info@pawsbuddy.co.uk</a> with any questions, or alternatively, fill out the form below. We will get back to you with details of our availabilty as soon as we can.
+</p>
+
+<form action="/thanks" name="Enquiries" netlify-honeypot="full-name" netlify>
+  <p class="nope">
+    <label for="full-name">Your full name, no really</label>
+  </p>
+  <p class="nope">
+    <input type="text" name="full-name" id="full-name">
+  </p>
+  <p>
+    <label for="email">Your email address (required for us to respond)</label>
+  </p>
+  <p>
+    <input class="required" type="email" name="email" id="email">
+  </p>
+  <p>
+    <label for="name">Your name</label>
+  </p>
+  <p>
+    <input class="required"t type="name" name="name" id="name">
+  </p>
+  <p>
+    <label for="postcode">Your post code (for our catchment area check)</label>
+  </p>
+  <p>
+    <input class="required" type="postcode" name="postcode" id="postcode">
+  </p>
+  <p>
+    <label for="details">Your requirements</label>
+  </p>
+  <p>
+    <textarea class="required" type="details" name="details" id="details"></textarea>
+  </p>
+  <p>
+    <label for="source">How did you hear about Paws Buddy?</label>
+  </p>
+  <p>
+    <select name="source" id="source">
+      <option value="Google">Google</option>
+      <option value="Facebook">Facebook</option>
+      <option value="Yell">Yell</option>
+      <option value="Other website">Other website</option>
+      <option value="Friend/family">Friend/family</option>
+      <option value="St Albans Dog Services">St Albans Dog Services</option>
+      <option value="Other">Other (please state)</option>
+    </select>
+  </p>
+  <p class="source-other nope">
+    <input type="text" name="source-other" placeholder="I heard about you...">
+  </p>
+  <p>
+    <input type="submit" value="Send enquiry" id="submitBtn">
+  </p>
+</form>
