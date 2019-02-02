@@ -18,7 +18,7 @@ pageClass: home
 	Having a home pet carer prevents the stress and medical risks of placing your pet in a kennels or cattery. Staying at home while you are away ensures that your pet keeps its usual routine in familiar surroundings.
 </p>
 
-<h2>Our clients are our best references!</h2>
+{# <h2>Our clients are our best references!</h2>
 <p>See more photos of our happy clients on our <a href="https://instagram.com/paws.buddy" rel="noopener" target="_BLANK">Instagram</a> page.</p>
 <div class="thumbnail-grid">
 {% for entry in instagram.slice(0,8) %}
@@ -26,7 +26,7 @@ pageClass: home
     <img src="{{ entry.images.thumbnail.url }}" alt="Instagram photo: {{ entry.caption.text }}" />
   </a>
 {%- endfor -%}
-</div>
+</div> #}
 
 
 <h2>Over and above</h2>
