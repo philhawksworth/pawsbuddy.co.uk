@@ -1,12 +1,12 @@
-var env = process.env.ELEVENTY_ENV;
 
 module.exports = function(eleventyConfig) {
 
+  var env = process.env.ELEVENTY_ENV;
   // Layout alias
   eleventyConfig.addLayoutAlias('default', 'layouts/base.njk');
 
   // Add filters to Nunjucks
-  eleventyConfig.addFilter("dateDisplay", require("./src/site/_filters/dates.js") );
+  eleventyConfig.addFilter("date", require("./src/site/_filters/dates.js") );
 
 
   // static passthroughs

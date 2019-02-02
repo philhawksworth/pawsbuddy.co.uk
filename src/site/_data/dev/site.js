@@ -1,1 +1,1 @@
-module.exports = require('../site.json');
+module.exports = require('../site.js');

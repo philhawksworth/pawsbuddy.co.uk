@@ -6,11 +6,12 @@
   "license": "MIT",
   "scripts": {
     "start": "gulp dev & ELEVENTY_ENV=dev eleventy --serve",
-    "build": "gulp build ELEVENTY_ENV=dev & eleventy",
-    "seed": "gulp build ELEVENTY_ENV=seed & eleventy"
+    "build": "gulp build & ELEVENTY_ENV=dev eleventy",
+    "seed": "gulp build & ELEVENTY_ENV=seed eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.7.1",
+    "axios": "^0.18.0",
     "dotenv": "^6.2.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
