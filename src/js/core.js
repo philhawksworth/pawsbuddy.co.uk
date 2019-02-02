@@ -1,10 +1,10 @@
 // simple button click event handler
-function btnHandler(selector, callback) {
+function btnHandler(selector, eventType, callback) {
   var btn = document.querySelector(selector);
   if(!btn) { return; }
-  btn.addEventListener('click', function(event) {
+  btn.addEventListener(eventType, function(event) {
     event.preventDefault();
-    callback();
+    callback(event);
   }, false);
 }
 

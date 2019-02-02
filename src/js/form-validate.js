@@ -26,13 +26,9 @@ function flagIfEmpty(input){
       }
 
       // flag any fields which are missing input
-      var inputs = form.querySelectorAll('input');
+      var inputs = form.querySelectorAll('.required');
       for (var i = 0; i < inputs.length; i++) {
         flagIfEmpty(inputs[i]);
-      }
-      var text = form.querySelectorAll('textarea');
-      for (var t = 0; t < text.length; t++) {
-        flagIfEmpty(text[t]);
       }
 
       // abort if there are flagged fields (other than the honeypot)
