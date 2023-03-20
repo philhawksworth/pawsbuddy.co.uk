@@ -8,4 +8,4 @@
 [[redirects]]
   from = "/client-form"
   to = "https://s2clraio2ws.typeform.com/to/M1ZkR7AX"
-  status = "302"
+  status = 302
