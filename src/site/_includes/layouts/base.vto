@@ -2,12 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Lobster+Two:400' rel='stylesheet' type='text/css'>
-    <style>{% include "css/main.css" %}</style>
-    <title>{%- if title -%}{{ title }}{%- else -%}Pawsbuddy - Pet care services{%- endif -%}</title>
-    <meta name="description" content="{%- if description -%}{{ description }}{%- else -%}Professional cat and dog sitting, and other pet services in the St Albans area{%- endif -%}"/>
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400" rel="stylesheet" type="text/css">
+    <style>{{ styles |> safe }}</style>
+    <title>{{ if title }}{{ title }}{{ else }}Pawsbuddy - Pet care services{{ /if }}</title>
+    <meta name="description" content="{{ if description }}{{ description }}{{ else }}Professional cat and dog sitting, and other pet services in the St Albans area{{ /if }}"/>
     <meta name="keywords" value="cat, cats, dog, dogs, walking, walks, walker, home, sitting, services, care, saint, st, albans, pet, pets">
     <meta name="robots" content="index, follow"/>
   </head>
@@ -26,17 +25,17 @@
       	<h1 class="title"><a href="/" title="Home page">Paws Buddy</a></h1>
       	<p>Pet sitting, dog walking &amp; other pet services in the St Albans area</p>
     	</div>
-    	{% include "navigation.njk" %}
+    	{{ include "navigation.vto" }}
     </div>
     <div class="content">
     	<div class="container">
-    		{{ content | safe }}
+    		{{ content |> safe }}
     	</div>
     </div>
     <div class="footer">
-			{% include "navigation.njk" %}
-			<p>PawsBuddy, {{ site.updated | date("year") }}</p>
+			{{ include "navigation.vto" }}
+			<p>PawsBuddy, {{ site.updated |> date("year") }}</p>
     </div>
-    <script>{% include "js/pawsbuddy.js" %}</script>
+    <script>{{ jsbundle |> safe }}</script>
   </body>
 </html>

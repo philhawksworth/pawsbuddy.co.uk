@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pawsbuddy",
+  "pages_build_output_dir": "dist",
+  "compatibility_date": "2024-01-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "pawsbuddy-enquiries",
+      "database_id": "<replace-after-creating-db>"
+    }
+  ],
+  "send_email": [
+    {
+      "name": "SEND_EMAIL",
+      "destination_address": "<replace-with-your-email>"
+    }
+  ]
+}
