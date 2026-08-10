@@ -1,0 +1,19 @@
+package-lock.json
+  s_e80afd834bba73::t_7b7b585e3c902c 1-2390
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b8511a1d9ad71a78fe3fe26c85fc055cd34d5193",
+  "prompts": {},
+  "sessions": {
+    "s_e80afd834bba73": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_014e6ad42ffezeJfXfa8pq4B4z",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "phawksworth <phawksworth@cloudflare.com>"
+    }
+  }
+}
