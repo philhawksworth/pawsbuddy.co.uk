@@ -7,13 +7,9 @@
     {
       "binding": "DB",
       "database_name": "pawsbuddy-enquiries",
-      "database_id": "<replace-after-creating-db>"
-    }
-  ],
-  "send_email": [
-    {
-      "name": "SEND_EMAIL",
-      "destination_address": "<replace-with-your-email>"
+      "database_id": "40764ff6-5dfe-458b-8eb3-0abfbcb14b4f"
     }
   ]
+  // send_email binding added in Phase 4 after domain is on Cloudflare:
+  // "send_email": [{ "name": "SEND_EMAIL", "destination_address": "hello@pawsbuddy.co.uk" }]
 }
