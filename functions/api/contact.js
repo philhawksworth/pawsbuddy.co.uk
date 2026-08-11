@@ -1,12 +1,13 @@
 export async function onRequestPost(context) {
   const { request, env } = context;
+  const origin = new URL(request.url).origin;
 
   const formData = await request.formData();
 
   // Honeypot check — silently reject if filled
   const honeypot = formData.get("full-name");
   if (honeypot && honeypot.trim() !== "") {
-    return Response.redirect("/thanks", 302);
+    return Response.redirect(`${origin}/thanks`, 302);
   }
 
   // Extract fields
@@ -19,7 +20,7 @@ export async function onRequestPost(context) {
 
   // Validate required fields
   if (!email || !name || !postcode || !details) {
-    return Response.redirect("/contact?error=missing", 302);
+    return Response.redirect(`${origin}/contact?error=missing`, 302);
   }
 
   // Store in D1
@@ -39,7 +40,7 @@ export async function onRequestPost(context) {
       .run();
   } catch (err) {
     console.error("D1 insert error:", err);
-    return Response.redirect("/contact?error=server", 302);
+    return Response.redirect(`${origin}/contact?error=server`, 302);
   }
 
   // Email notification — enabled in Phase 4 after domain cutover
@@ -56,5 +57,5 @@ export async function onRequestPost(context) {
   //   }
   // }
 
-  return Response.redirect("/thanks", 302);
+  return Response.redirect(`${origin}/thanks`, 302);
 }
