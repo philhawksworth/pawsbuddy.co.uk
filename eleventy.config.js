@@ -59,7 +59,7 @@ export default function (eleventyConfig) {
 
   // JS bundle shortcode
   eleventyConfig.addShortcode("jsbundle", function () {
-    const files = ["core.js", "form-validate.js", "toggleDetails.js"];
+    const files = ["core.js", "form-validate.js", "toggleDetails.js", "onboarding.js"];
     return files
       .map((f) => readFileSync(`./src/js/${f}`, "utf8"))
       .join("\n");

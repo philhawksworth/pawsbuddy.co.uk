@@ -19,15 +19,17 @@ function flagIfEmpty(input){
       event.preventDefault();
       var form = event.target;
 
-      // reset any flags
+      // reset any flags (skip fields in hidden stages of multi-step forms)
       var flags = form.querySelectorAll('.needs-content');
       for (var f = 0; f < flags.length; f++) {
+        if (flags[f].closest('[hidden]')) continue;
         flags[f].classList.remove('needs-content');
       }
 
-      // flag any fields which are missing input
+      // flag any visible fields which are missing input
       var inputs = form.querySelectorAll('.required');
       for (var i = 0; i < inputs.length; i++) {
+        if (inputs[i].closest('[hidden]')) continue;
         flagIfEmpty(inputs[i]);
       }
 

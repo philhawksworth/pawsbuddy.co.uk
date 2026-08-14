@@ -1,0 +1,72 @@
+---
+layout: default
+title: Onboarding Questionnaire
+pageClass: contact
+---
+
+<h1>Onboarding Questionnaire</h1>
+<p>Welcome! Please complete the following questions so we can get to know you and your pet better.</p>
+
+<p class="error-banner" id="error-banner" hidden>Something went wrong. Please try again or <a href="/contact">contact us directly</a>.</p>
+
+<p class="progress-indicator" aria-live="polite">Step 1 of 2</p>
+
+<script>
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('error')) {
+    var banner = document.getElementById('error-banner');
+    if (banner) banner.removeAttribute('hidden');
+  }
+})();
+</script>
+
+<form action="/api/onboarding" method="POST" class="onboarding-form" novalidate>
+  <!-- Honeypot -->
+  <p class="nope">
+    <label for="full-name">Your full name, no really</label>
+    <input type="text" name="full-name" id="full-name">
+  </p>
+
+  <!-- Stage 1: Your Name and Contact Details -->
+  <fieldset class="stage" data-stage="1">
+    <legend>Your Name and Contact Details</legend>
+    <p>
+      <label for="first_name">First name</label>
+      <input type="text" name="first_name" id="first_name" class="required">
+    </p>
+    <p>
+      <label for="last_name">Last name</label>
+      <input type="text" name="last_name" id="last_name" class="required">
+    </p>
+    <p>
+      <label for="phone">Phone number</label>
+      <input type="tel" name="phone" id="phone" class="required">
+    </p>
+    <p>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" class="required">
+    </p>
+    <p class="nav-buttons">
+      <button type="button" class="btn-next">Next</button>
+    </p>
+  </fieldset>
+
+  <!-- Stage 2: Preferred Method of Contact -->
+  <fieldset class="stage" data-stage="2" hidden>
+    <legend>Preferred Method of Contact</legend>
+    <p>
+      <label for="preferred_contact">How would you like us to contact you?</label>
+      <select name="preferred_contact" id="preferred_contact" class="required">
+        <option value="">-- Please select --</option>
+        <option value="email">Email</option>
+        <option value="text">Text</option>
+        <option value="whatsapp">WhatsApp</option>
+      </select>
+    </p>
+    <p class="nav-buttons">
+      <button type="button" class="btn-prev">Previous</button>
+      <button type="submit">Submit</button>
+    </p>
+  </fieldset>
+</form>
