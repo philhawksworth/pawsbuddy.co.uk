@@ -277,6 +277,57 @@ textarea {
   border-bottom: dashed 2px red;
 }
 
+.dynamic-form {
+  padding-top: 0;
+}
+.dynamic-form h2 {
+  font-size: 1.3em;
+  font-weight: 400;
+  padding: 0 0 0.5em;
+}
+.field-hint {
+  font-size: 0.85em;
+  color: #666;
+  margin: -0.5em 0 1em;
+}
+.progress-indicator {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 1em;
+}
+.nav-buttons {
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+}
+.nav-buttons button {
+  flex: 1;
+  margin: 0;
+  font-size: 1.2em;
+  padding: 1em;
+  color: #fff;
+  background-color: #333;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+}
+.nav-buttons button:hover,
+.nav-buttons button:focus {
+  background-color: #e46b6d;
+}
+.nav-buttons .btn-prev {
+  background-color: #666;
+}
+.error-banner {
+  background-color: #fce8e8;
+  border-left: 4px solid #e46b6d;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.error-banner a {
+  border-bottom: none;
+}
+
 
 
 @media all and (min-width: 420px) {
